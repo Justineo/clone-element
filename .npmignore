@@ -1,0 +1,5 @@
+.*
+*.config.js
+tsconfig.json
+test
+src

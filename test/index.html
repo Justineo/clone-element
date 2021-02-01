@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clone Element</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="controls">
+      <button id="clone">Clone</button>
+    </section>
+    <section class="case case-1">
+      <div class="source col">
+        <div class="item">
+          <select>
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="c" selected>C</option>
+          </select>
+        </div>
+      </div>
+      <div class="result col"></div>
+    </section>
+    <section class="case case-2">
+      <div class="source col">
+        <div class="item">
+          <input type="radio" name="foo" value="a" />
+          <input type="radio" name="foo" value="b" checked />
+          <input type="radio" name="foo" value="c" />
+        </div>
+      </div>
+      <div class="result col"></div>
+    </section>
+    <section class="case case-3">
+      <div class="source col">
+        <div class="item">
+          <input type="text" placeholder="Type something..." />
+          <hr style="margin: 10px 0" />
+          <textarea
+            cols="30"
+            rows="5"
+            placeholder="Type something..."
+          ></textarea>
+        </div>
+      </div>
+      <div class="result col"></div>
+    </section>
+    <section class="case case-4">
+      <div class="source col">
+        <div class="item">
+          <video
+            height="200"
+            src="https://rawgit.com/bower-media-samples/big-buck-bunny-480p-30s/master/video.mp4"
+            crossorigin="anonymous"
+            controls
+            autoplay
+            muted
+          ></video>
+        </div>
+      </div>
+      <div class="result col"></div>
+    </section>
+    <section class="case case-5">
+      <div class="source col">
+        <div class="item">
+          <canvas></canvas>
+        </div>
+      </div>
+      <div class="result col"></div>
+    </section>
+    <section class="case case-6">
+      <div class="source col" dir="rtl" lang="zh-Hans">
+        <div class="item">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+      </div>
+      <div class="result col"></div>
+    </section>
+    <section class="case case-7">
+      <fieldset class="source col" disabled>
+        <div class="item">
+          <input type="text" placeholder="Type something..." />
+        </div>
+      </fieldset>
+      <div class="result col"></div>
+    </section>
+    <script src="../dist/index.umd.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

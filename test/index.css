@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+.case {
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+
+.col {
+  flex: 0 0 25%;
+  padding: 20px 30px;
+}
+
+.case-3 .source input {
+  color: goldenrod;
+  border: 2px dotted crimson;
+}
+
+.case-3 .source input::placeholder {
+  color: red;
+}
+
+.case-3 .source textarea::placeholder {
+  color: orange;
+}
+
+.case-6 .item {
+  width: 200px;
+}
+
+.case-6 .item {
+  width: 200px;
+  hyphens: auto;
+}
+
+.case-6 :dir(rtl) {
+  color: red;
+}

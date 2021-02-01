@@ -11,7 +11,7 @@ npm i -save clone-element
 ## Usage
 
 ```js
-import { cloneElement } from 'clone-element'
+import cloneElement from 'clone-element'
 
 document.body.appendChild(cloneElement(document.querySelector('h1'))
 ```
